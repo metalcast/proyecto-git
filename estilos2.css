@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/**/
+    font-family: sans-serif;/*fuente*/
+    text-decoration: none;/*sin subrayar*/
+    text-align: justify;/*alineados*/
+}
+body{
+    background-color: #f7f7f7;/*color de fondo*/
+}
+container{
+    margin: auto;
+    max-width: 1200px;/*maximo de altura*/
+    width: 90%;/*ocupa en la pag*/
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+header{
+    background-color: darkgreen;/*color encabezado*/
+    color: white;/*color de la letra*/
+    padding: 1em;/*margenes internos delflexbox*/
+    
+    align-items: center;/*alinear items*/
+    display: flex;/**/
+    flex-basis: 100%;/*ancho*/
+    flex-basis: row wrap;/**/
+    justify-content: space-between;/*separar espacios*/
+}
+header nav{
+    background-color: whitesmoke;/*fondo a los link*/
+    padding: 1em;/*margen de los link*/
+    text-align: center;
+    
+    flex-basis: 30%;/*ancho*/
+}
+header nav a{
+    color: cadetblue;
+    padding: 1em;
+    text-transform: uppercase;/*mayusculas*/
+    
+    justify-content: space-around;
+}
+header nav a:hover{
+    background-color: black;
+}
